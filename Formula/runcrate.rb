@@ -6,23 +6,23 @@ class Runcrate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.12.0/runcrate-darwin-arm64"
-      sha256 "bd7cb3fb3a9f0b95c21600459e273856f7998c70127177722380a23a6c3711e1"
+      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.13.0/runcrate-darwin-arm64"
+      sha256 "88f53c2169d0401882b10394e6ad219489617dce199ad87e1ca0f141339406cd"
     end
     on_intel do
-      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.12.0/runcrate-darwin-amd64"
-      sha256 "372c4d2f3e9093843f560f5be69b0dbf9099487ab3826b4e7f15904df3ea42bf"
+      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.13.0/runcrate-darwin-amd64"
+      sha256 "9ca656642a6afd37e610079ceff5c97f3b5ccb3426a438e194737f6b345e5030"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.12.0/runcrate-linux-arm64"
-      sha256 "d237f6731ec7bb5fc2243cf2425802d03aa1e53c858c64fd819765cc2704763b"
+      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.13.0/runcrate-linux-arm64"
+      sha256 "4629bf2b21cae74dcb8cefdf451eaedde88261be41619e1b7828b69807db4f6b"
     end
     on_intel do
-      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.12.0/runcrate-linux-amd64"
-      sha256 "02c8c11b70d829ceef712b1ca0af284309fbffbab8eabdd6ea87745b9efdb988"
+      url "https://github.com/runcrateai/runcrate-cli/releases/download/v0.13.0/runcrate-linux-amd64"
+      sha256 "92b59e4c09642d0b39b6ac0e70198fcffce94735b616f397ecfdda9734e0f17b"
     end
   end
 
